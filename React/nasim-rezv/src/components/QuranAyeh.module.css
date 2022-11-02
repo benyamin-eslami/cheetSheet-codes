@@ -1,0 +1,249 @@
+.top__header-wrappper {
+  padding: 0.5rem;
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-header__gradient {
+  background: linear-gradient(
+      90deg,
+      transparent 11%,
+      transparent 2%,
+      #82bbca 55%
+    ),
+    url("../assets/img/main-header-pattern.0da8e05.png");
+  background-size: cover;
+  color: #fff;
+  border: 3px solid rgb(219, 219, 23);
+  border-radius: 2rem;
+}
+
+.top-header-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-header-desc__text {
+  text-align: right;
+}
+.top-header-desc__text h3 {
+  font-size: 1rem;
+}
+.top-header-desc__text p {
+  margin-top: -0.6rem;
+  font-size: 0.75rem;
+}
+.top-header__icon-wrapper {
+  margin: 0.5rem 1rem 0rem 1rem;
+}
+
+.back__img {
+  width: 1.7rem;
+  height: 1.7rem;
+  margin: 0.3rem 0.7rem 0 1rem;
+}
+.search-wrapper {
+  background-color: #faf9f6;
+  background-image: url("../assets/img/nasim-rezvan-bg-pattern.18658f7.png");
+}
+.inner-search-wrapper {
+  margin: 0 1%;
+}
+
+nav {
+  box-shadow: 2px 4px 36px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 4px 36px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 4px 36px -3px rgba(0, 0, 0, 0.75);
+  padding: 0.3rem 0;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  max-width: 37.5rem;
+  z-index: 100;
+}
+nav ul {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.home-nav {
+  border-radius: 100%;
+  padding: 0.5rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+.haram-img {
+  width: 3rem;
+}
+.search-wrapper {
+  padding: 3rem;
+}
+.search__input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  z-index: 50;
+  top: 3rem;
+
+  width: 15rem;
+  margin: 0 auto;
+}
+.search__input {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  border: 0.125rem solid #bdbdbd;
+  border-right: none;
+  border-left: none;
+  text-align: right;
+}
+.search__input:focus {
+  outline: none;
+  border-color: rgb(202, 202, 42);
+}
+
+.search__input-right {
+  position: absolute;
+  right: -20px;
+  width: 2rem;
+  height: 2.4rem;
+}
+.search__input-left {
+  position: absolute;
+  left: -20px;
+  width: 2rem;
+  height: 2.4rem;
+}
+.search__result-wrapper {
+  margin-top: 1.5rem;
+}
+
+.search__result-title {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.search__result-list {
+  padding: 0.6rem 0.8rem;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.search__result-list:hover {
+  background-color: rgba(201, 245, 232, 0.534);
+}
+.search__result {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.search__result-list-badge {
+  position: relative;
+  text-align: center;
+  background-color: #d6bb8b;
+  color: #705a34;
+  border-radius: 3rem;
+  padding: 0.5rem;
+  width: 12rem;
+  margin: 0 auto;
+}
+.search__result-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.aye__container {
+  position: relative;
+}
+.aye__number {
+  position: absolute;
+  right: 1.065rem;
+  bottom: 0.95rem;
+  font-size: 0.9rem;
+  color: #444444;
+}
+
+.more-svg {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.copied {
+  color: white;
+  background-color: #000;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+.quran__text {
+  font-family: quranFont;
+}
+.quran__title-text-weight {
+  font-size: 2rem;
+}
+.quran__text-weight {
+  font-size: 1.7rem;
+  color: #444444;
+}
+.quran__badge-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.quran__surah-context {
+  color: #fff;
+}
+.quran__banner-container {
+  background: rgb(30, 160, 192) url("../assets/img/quran-back.svg") no-repeat
+    100px;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0px 0.313rem 1.125rem 1px rgb(57 176 206 / 46%);
+  margin-top: 1rem;
+}
+.action-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.arrow-img {
+  width: 1.5rem;
+}
+.prev-arrow__wrapper {
+  padding: 1rem 0.5rem;
+
+  position: fixed;
+  left: 0vw;
+  top: 50vh;
+}
+.next-arrow__wrapper {
+  padding: 1rem 0.5rem;
+
+  position: fixed;
+  right: 0vw;
+  top: 50vh;
+}
+.prev-arrow__wrapper:hover,
+.next-arrow__wrapper:hover {
+  background-color: rgba(148, 145, 145, 0.192);
+}
+.prev-arrow__wrapper:active,
+.next-arrow__wrapper:active {
+  background-color: rgba(148, 145, 145, 0.281);
+}
+.highlight {
+  background-color: rgba(160, 240, 216, 0.363);
+}

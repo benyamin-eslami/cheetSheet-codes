@@ -1,0 +1,28 @@
+.search-wrapper {
+  background-color: #faf9f6;
+  background-image: url("../../assets/img/nasim-rezvan-bg-pattern.18658f7.png");
+}
+
+.rtl {
+  direction: rtl;
+}
+.setting-title {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  font-weight: bold;
+  -webkit-box-shadow: 7px 4px 38px -4px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 7px 4px 38px -4px rgba(0, 0, 0, 0.63);
+  box-shadow: 7px 4px 38px -4px rgba(0, 0, 0, 0.63);
+}
+.examole__translate-title {
+  font-weight: bold;
+}
+.examole__translate {
+  margin-top: 0.5rem;
+
+  -webkit-box-shadow: 7px 4px 38px -4px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 7px 4px 38px -4px rgba(0, 0, 0, 0.63);
+  box-shadow: 7px 4px 38px -4px rgba(0, 0, 0, 0.63);
+  padding: 1rem 1rem 6rem 1rem;
+  line-height: 2rem;
+}

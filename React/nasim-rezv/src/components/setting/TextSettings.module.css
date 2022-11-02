@@ -1,0 +1,51 @@
+.translate__sec {
+  direction: rtl;
+  border-radius: 0.3rem;
+  background-color: white;
+}
+.translate-label {
+  display: flex;
+}
+.translate-info__sec {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.translate-info__sec p {
+  margin-right: 0.5rem;
+}
+.translate-info__sec img {
+  border-radius: 50%;
+  width: 2.3rem;
+  height: 2.3rem;
+  margin-right: 0.3rem;
+}
+.translate-size {
+  display: flex;
+  justify-content: space-around;
+}
+
+.translate__option-title {
+  text-align: center;
+}
+.translate__text-setting {
+  padding: 1rem 1rem 1.8rem 1rem;
+}
+.examole__translate {
+  background-color: rgb(238, 237, 237);
+  padding: 1rem;
+  border-radius: 0.2rem;
+  margin: 1rem;
+}
+.close__btn {
+  border: none;
+  background-color: red;
+  color: #fff;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.close__btn:hover {
+  background-color: rgb(255, 79, 79);
+}

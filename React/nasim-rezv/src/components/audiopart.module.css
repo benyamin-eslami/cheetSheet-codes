@@ -1,0 +1,168 @@
+nav {
+  box-shadow: 2px 4px 36px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 4px 36px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 4px 36px -3px rgba(0, 0, 0, 0.75);
+  padding: 0.3rem 0;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  max-width: 37.5rem;
+  z-index: 100;
+}
+nav ul {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.haram-img {
+  width: 3rem;
+}
+.aye__container {
+  position: relative;
+}
+.aye__number {
+  position: absolute;
+  right: 1.065rem;
+  bottom: 0.95rem;
+  font-size: 0.9rem;
+  color: #444444;
+}
+
+.filter {
+  padding: 0 3rem;
+}
+.input__filter {
+  text-align: right;
+  outline: none;
+  border: 2px solid #8d8575;
+  padding: 0.5rem 0.3rem;
+  border-top: none;
+  position: absolute;
+  top: 2.1rem;
+  z-index: 10;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.input__filter::placeholder {
+  color: #d3d3d3;
+}
+.filter__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.filter__list-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #8d8575;
+  z-index: 20;
+  width: 12rem;
+  height: 2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 3rem;
+}
+.filter__list button {
+  cursor: pointer;
+
+  background: transparent;
+  border: none;
+  font-size: 0.8rem;
+  color: #f3f3f3;
+}
+
+.filter__result-container {
+  padding: 3rem 0;
+}
+.gray {
+  background-color: rgba(225, 219, 208, 0.5);
+}
+.filter__result-container-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.5rem;
+  color: #5f5036;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+}
+.result__list-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result__list-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.surah__title {
+  margin-right: 0.5rem;
+}
+
+.text-icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-top: 0.7rem;
+  cursor: pointer;
+  margin-left: 0.7rem;
+}
+
+.menu-list-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.home-nav {
+  margin: 0 1rem;
+}
+
+.playImg {
+  margin-top: 0.5rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+ul li:nth-child(2) {
+  margin-right: 0.3rem;
+}
+ul li:nth-child(3) {
+  margin-left: 0.3rem;
+}
+.nav-inner__wrapper {
+  position: relative;
+}
+.close__wrapper {
+}
+.close {
+  border-radius: 50%;
+  width: 2.22rem;
+  height: 2.22rem;
+  cursor: pointer;
+}
+
+.show__wrapper {
+  display: flex;
+  background-color: white;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  flex-direction: row-reverse;
+  position: fixed;
+  bottom: 0;
+  cursor: pointer;
+}
+.show-img {
+  margin-right: 0.6rem;
+  width: 2.2rem;
+  height: 2.2rem;
+}

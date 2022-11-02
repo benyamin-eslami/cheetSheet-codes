@@ -1,0 +1,32 @@
+nav {
+  box-shadow: 2px 4px 36px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 4px 36px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 4px 36px -3px rgba(0, 0, 0, 0.75);
+  padding: 0.3rem 0;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  max-width: 37.5rem;
+  z-index: 100;
+}
+nav ul {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.home-nav {
+  border-radius: 100%;
+  padding: 0.5rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+.haram-img {
+  width: 3rem;
+}
+.openbookImg {
+  width: 1.9rem;
+}
